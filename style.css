@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'karla';
+    src: url(fonts/Karla-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'inter-reg';
+    src: url(fonts/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'inter-med';
+    src: url(fonts/Inter_18pt-Medium.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    height: 100vh;           /* full screen height */
+    margin: 0;
+    background: #111827;
+}
+
+.main-div{
+    width: 650px;
+    height: 650px;
+    background: #1F2937;
+    border-radius: 10px;
+}
+
+h1 {
+    padding-left: 52px;
+    padding-top: 115px;
+    font-family:karla;
+    font-size: 40px;
+    margin: 0;
+    line-height: 90%;
+}
+
+.heading-1 {
+    color: #F9FAFB;
+}
+
+.heading-2 {
+    color: #55F991;
+}
+
+.tagline {
+    margin: 0px ;
+    padding-top: 10px;
+    padding-left: 52px;
+    color: #D5D4D8;
+    font-family: inter-reg;
+}
+
+button {
+    margin-left: 52px;
+    margin-top: 42px;
+    padding: 9px 17px 9px 15px;
+    border-radius: 6px;
+    border-style: none;
+    background: #10B981;
+    color: #F9FAFB;
+    cursor: pointer;
+}
+
+hr {
+    border:none;
+    height: 2px;
+    background: #10B981;
+    margin-top: 40px;
+    margin-right: 52px;
+    margin-left: 52px;
+}
+
+.second-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.box-1 {
+    width: 225px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.box-2 {
+    width: 225px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#password-1 {
+    margin: 0px;
+    font-family: inter-med;
+    color: #55F991;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#password-2 {
+    margin: 0px;
+    font-family: inter-med;
+    color: #55F991;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
